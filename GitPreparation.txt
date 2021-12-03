@@ -1,0 +1,57 @@
+Git installation - https://gitforwindows.org/
+git installation documentation - https://phoenixnap.com/kb/how-to-install-git-windows 
+git tutorial - https://www.atlassian.com/git/tutorials/install-git#windows
+git habr - https://habr.com/ru/post/552872/
+git branhces - https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+coursera git intro - Introduction to Git and GitHub
+
+git --version
+
+git config - git config --global user.name "Emma Paris" 
+	     git config --global user.email "eparis@atlassian.com"
+ 	     git config -l 
+---------------------------------------------
+git init 
+- initialize git on folder
+- Initialized empty Git repository in C:/Users/AnarMansurov/Desktop/PhD prep/University Lesson/Programming/Python/Basics/Hackerrank/.git/
+
+git add <filename> / .  
+- add to basket / staging
+
+git status
+- on which branch, which files ... 
+
+git commit [-m ""]
+- confirm stages
+
+git branch [-r (remote)/ -a (all)]
+- see list of current branches
+- default is main/master
+- for creating new histories [test / preprod / prod] [ or team members]
+- 	
+
+git checkout [-b]
+- switching around branhces
+- create new branch
+- add/commit and shifting
+
+git show [--stat --oneline <commit_id>] 
+
+git remote / git local
+- github repo
+- git remote add <repo_name> <url>
+- git remote 
+
+
+git push 
+- git push -u <remote_name> <branch_name> --> same name with local
+
+git pull
+- git pull <remote_name> <branch_name>
+
+
+git fork/ clone
+
+
+git merge - about - merge edib mənə screenshotlar göndərmiş komanda - sdf 2 - 30 bal initial point
+ 
